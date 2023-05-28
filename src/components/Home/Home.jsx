@@ -1,9 +1,12 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 
 const Home = () => {
+     const tshirts = useLoaderData();
+     console.log(tshirts);
      return (
           <div>
-               <h2>This is home.</h2>
+               <h2>This is home = {tshirts.length} </h2>
           </div>
      );
 };
