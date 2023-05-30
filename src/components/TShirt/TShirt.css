@@ -1,0 +1,20 @@
+.t-shirt{
+     margin-top: 30px;
+     border: 2px solid lightblue;
+     border-radius: 15px;
+     padding: 10px;
+}
+
+.t-shirt img{
+     height: 250px;
+     border-radius: 15px;
+}
+
+button{
+     background-color: aquamarine;
+     
+}
+
+button:hover{
+     background-color: rgb(92, 180, 214);
+}
