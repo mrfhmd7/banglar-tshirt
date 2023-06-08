@@ -1,12 +1,12 @@
 import React from 'react';
 import Cousin from '../Cousin/Cousin';
 
-const Aunty = () => {
+const Aunty = ({ring}) => {
      return (
           <div>
                <h2>Aunty</h2>
                <section className='flex'>
-               <Cousin>Jamil</Cousin>
+               <Cousin hasFriend={true} ring={ring}>Jamil</Cousin>
                <Cousin>Jamila</Cousin>
                </section>
           </div>

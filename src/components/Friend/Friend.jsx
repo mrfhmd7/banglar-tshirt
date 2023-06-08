@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Special = ({ring}) => {
+const Friend = ({ring}) => {
      return (
           <div>
-               <h2>Someone</h2>
+               <h2>Friend</h2>
                <p>Ring: {ring}</p>
           </div>
      );
 };
 
-export default Special;
+export default Friend;
