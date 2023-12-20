@@ -13,7 +13,6 @@ const Grandpa = () => {
      
      return (
           <div className='grandpa'>
-               <h2>hi how </h2>
                <h2>Grandpa</h2>
                <h4>Has money: {money}</h4>
                <MoneyContext.Provider value={[money, setMoney]}>
